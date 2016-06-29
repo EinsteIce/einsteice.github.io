@@ -1,0 +1,29 @@
+<html>    
+<head><title></title>    
+<script language='javascript' type='text/javascript'>    
+var secs =3; //倒计时的秒数    
+var URL ;    
+function Load(url){    
+URL =url;    
+for(var i=secs;i>=0;i--)    
+{    
+window.setTimeout('doUpdate(' + i + ')', (secs-i) * 1000);    
+}    
+}    
+function doUpdate(num)    
+{    
+<!--document.getElementById('ShowDiv').innerHTML = num;-->
+if(num == 0) { window.location=URL; }    
+}    
+</script>    
+</head>    
+<body>
+		<p align = "center">
+			<img src ="06.gif" width = 1000 />
+		</p>
+<div id="ShowDiv"></div>    
+<script language="javascript">    
+Load("myInfomation.html");
+</script>    
+</body>    
+</html>
