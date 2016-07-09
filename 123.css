@@ -3,6 +3,11 @@ a.one:link {color:#000000;text-decoration:none;font-family:Tahoma;}
 a.one:visited {color:#000;text-decoration:none;}
 a.one:hover {text-decoration:underline;}
 
+a.two:link{font-family:"Microsoft YaHei"}
+a.two:link {color:#000000;text-decoration:none;font-family:Tahoma;}
+a.two:visited {color:#000;text-decoration:none;}
+a.two:hover {text-decoration:underline;}
+
 .show
 {
 	width: 600px;
@@ -45,4 +50,10 @@ a.one:hover {text-decoration:underline;}
 	background-color:#ffffff;
 	filter:alpha(opacity=60);
 	opacity:0.6;
+}
+
+.two
+{
+	top:50px;
+	right:30px;
 }
